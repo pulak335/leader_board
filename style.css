@@ -1,7 +1,42 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #f3f1ff;
+    margin: 0;
 }
+header{
+    background-color: #562eff;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+nav img{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar{
+    display: flex;
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+}
+.logo h2{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -43,7 +78,23 @@ hr{
     margin-left: 16px;
     font-size: 18px;
 }
-
+nav{
+    display: flex;
+    padding-top: 5px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+    }
 
 
 
